@@ -1,0 +1,176 @@
+﻿a:link, a:visited { color: #e6e154; text-decoration: none; font-weight: bold;} 
+a:active, a:hover { color: #e6e154; text-decoration: underline;}
+
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family:黑体;
+	font-size: 11px;
+	color: #ffffff;
+	background: #01304e;
+}
+
+
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background: #1c1c1b url(images/bg.jpg) repeat-y;
+}
+
+
+
+
+#menu {
+	clear: both;
+	width: 960px;
+	height: 45px;
+	background: url(images/menu_bg.jpg) no-repeat;
+}
+
+#menu ul {
+	padding: 13px 0 0 0;
+	margin: 0;
+	list-style: none;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	float: right;
+	padding: 0 20px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+
+#menu li a:hover, #menu li .current{
+	color: #000000;
+}
+
+
+
+/* header */
+#header {
+	clear: both;
+	width: 960px;
+	height: 285px;
+	padding: 0;
+	margin: 0;
+	background: url(images/header.jpg) no-repeat;
+}
+
+#header a,a:hover {
+	color: #ffffff;
+}
+
+
+
+
+/* content */
+#content {
+	clear: both;
+	width: 920px;
+	padding: 0 20px;
+}
+
+#content #content_left {
+	float: left;
+	width: 188px;
+padding: 10px;
+	background-color: #01304e;
+}
+
+#content #content_right {
+	float: right;
+	width: 670px;
+padding: 10px;
+	background: #01304e;
+}
+
+
+#content_left .content_left_class
+{
+	clear: both;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #2b2b2a;
+	margin-bottom: 20px;
+}
+
+.content_left_class
+ h1 {
+	font-size: 14px;
+	color: #cbc750;
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px dotted #cbc750;
+}
+
+.content_left_class
+ ul {
+	padding: 0;
+	margin: 0;
+}
+
+.content_left_class
+ ul li{
+	padding: 0 0 3px 10px;	
+	list-style: none;
+}
+
+.content_left_class
+ ul li a{
+	font-weight: normal;
+	text-decoration: none;
+	color: #969547;
+}
+
+.content_left_class
+ li a:hover, .content_left_class
+ li .current{
+	color: #fcf88e;
+}
+
+
+#content_right 
+ {
+	float: left;
+	width: 303px;
+	height: 210px;
+	padding: 10px;
+	border: 1px solid #333;
+	
+}
+
+
+/* footer */
+#footer {
+	clear: both;
+	width: 960px;
+	padding: 20px 0px 20px 0;
+	text-align: center;
+	color: #999;
+	background-color: #062f4f;
+}
+
+#footer a{
+	color: #fff;
+	font-weight: normal;
+}
+/* end of footer */

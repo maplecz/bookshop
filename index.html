@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>BookshopOL</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="D:\\jquery-2.0.3.js" type="text/javascript">
+</script>
+<script>
+$(document).ready(function(){
+     $("#btn1").click(function(){
+        $("#header").load('/1.html');
+      })
+})
+</script>
+</head>
+<body>
+<div id="container">
+  <div id="menu">
+    <ul>
+      <li><a href="#" >注册</a></li>
+      <li><a href="index.html" class="current">主页</a><li>
+    </ul>
+  </div>
+
+  <div id="header">
+  </div>
+ 
+
+  <div id="content">
+    <div id="content_left">
+      <div class="content_left_class">
+        <h1>图书类别</h1>
+        <ul>
+          <button id="btn1" type="button">获得外部的内容</button>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+        </ul>
+      </div>
+    </div>
+
+
+
+    <div id="content_right">
+    </div>
+  </div>
+
+
+  <div id="footer"> <a href=" ">Home</a> | <a href=" ">Contact Us</a><br />
+    Copyright &copy; 2013 <a href=" "><strong>北京工业大学</strong></a>  </div>
+
+</div>
+
+</body>
+</html>
